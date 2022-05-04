@@ -5,4 +5,4 @@
   - name: install webserver
     apt:
       name: apache2
-      state: restart
+      state: restarted
